@@ -71,6 +71,21 @@
     margin-top: -40vh;
 }
 
+.not {
+    margin-left: -62vw;
+    position: absolute;
+}
+
+.not1 {
+    margin-left: -15vw;
+    position: absolute;
+}
+
+.not2 {
+    margin-left: 33vw;
+    position: absolute;
+}
+
 .container-2 {
     margin-top: 15vh;
 }
@@ -83,6 +98,7 @@
     height: 50vh;
     cursor: pointer;
     margin-left: 14.2vw;
+    margin-top: 40vh;
 }
 
 .propa-txt {
@@ -175,37 +191,46 @@
 }
 
 .container-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 20vw;
+    height: 20vh;
+    margin-top: -80vh;
+    gap: 250px;
+    margin-left: 17vw;
     font-size: 20px;
+    position: absolute;
 }
 
-.texto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 20vw;
-    height: 20vh;
-    margin: 10vh auto;
-    gap: 50px;
+.container-7 {
+    margin-left: 45vw;
+    margin-top: -70vh;
+    position: relative;
 }
 
-.texto1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 20vw;
-    height: 20vh;
-    margin: 10vh auto;
-    gap: 50px;
+.text {
+    margin-top: 4vh;
 }
 
-.texto2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 20vw;
-    height: 20vh;
-    margin: 10vh auto;
-    gap: 50px;
+.text1 {
+    margin-top: 4vh;
+    margin-left: -5.2vw;
 }
 
+.text2 {
+    margin-top: -1vh;
+}
+.text3 {
+    margin-top: -1vh;
+    margin-left: -5.2vw;
+}
 
+.text4 {
+    margin-top: -1vh;
+}
+
+.text5 {
+    margin-top: -1vh;
+    margin-left: -5.2vw;
+}
